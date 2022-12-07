@@ -1,0 +1,77 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+ body {
+    background-color: black;
+    overflow: hidden;
+
+ }
+
+.container {
+    width: 1200px;
+    margin:  0 auto;
+    height: 1200px;
+    overflow: hidden;
+    background-image: url(../img/rajif.jpeg);
+    background-repeat: no-repeat;
+    text-align: center;
+    
+
+}
+
+.container h1{
+    font-size: large;
+    font-weight: bold;
+    border-radius: 50px;
+    margin: 10px;
+    padding: 5px;
+    background-color: lawngreen;
+    color: white;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+.container .header #nama{
+    text-align: center;
+    border-radius: 10px;
+    font-size: larger;
+    width: 500px;
+    height: 30px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.container .header #tambah{
+    border-radius: 10px;
+    font-size: larger;
+    width: 200px;
+    height: 30px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    background-color: lawngreen;
+
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.list  {
+    text-align: center;
+    color: blue;
+    text-decoration: none;
+ float: center ;
+    float: 50px;
+}
+
+.list #list-pacar a {
+    text-decoration: none;
+    list-style: none;
+    color: red;
+}
